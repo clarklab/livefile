@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="380px" height="235px" viewBox="0 0 380 235" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>art-realtime</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-page-mvp" transform="translate(-1403.000000, -4379.000000)">
+            <g id="feature-cards-illustrated" transform="translate(0.000000, 3893.000000)">
+                <g id="cards" transform="translate(157.000000, 192.000000)">
+                    <g id="real-time" transform="translate(1191.000000, 0.000000)">
+                        <g id="Group-7" transform="translate(31.000000, 294.000000)">
+                            <rect id="Rectangle-15-Copy" fill="#F3F5FA" x="24" y="30" width="380" height="205" rx="20"></rect>
+                            <g id="illustration-realtime" transform="translate(0.000000, 71.000000)">
+                                <path d="M0,0 C155.229167,0 232.84375,0 232.84375,0 C232.84375,0 215.468324,41 180.717472,123 L0,123 L0,0 Z" id="Rectangle-7" fill="#FFFFFF"></path>
+                                <g id="speed-lines" transform="translate(24.000000, 35.000000)" stroke="#1F0166" stroke-linecap="round" stroke-width="2">
+                                    <path d="M177,1 L0.602040816,1" id="Line-2"></path>
+                                    <path d="M176.132353,31 L0.867647059,31" id="Line-2-Copy"></path>
+                                    <path d="M172,60 L1.14692126,60" id="Line-2-Copy-2"></path>
+                                </g>
+                                <g id="lightning" transform="translate(172.000000, 0.000000)" fill="#92A7D7">
+                                    <polygon id="Fill-1" points="0.549321167 67 34.0334842 67 60.8208146 0.098642334"></polygon>
+                                    <polygon id="Fill-2" points="33.9732127 57 7.17918544 123.901358 67.4506788 57"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="794px" height="837px" viewBox="0 0 794 837" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>art-browsers</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-19.9%" y="-14.4%" width="139.8%" height="157.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="64" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.57254902   0 0 0 0 0.654901961   0 0 0 0 0.843137255  0 0 0 0.272475091 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="499.24183" height="378.372064" rx="17.25"></rect>
+        <filter x="-19.9%" y="-14.4%" width="140.0%" height="157.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="64" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.57254902   0 0 0 0 0.654901961   0 0 0 0 0.843137255  0 0 0 0.272475091 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="499.24183" height="378.372064" rx="17.25"></rect>
+        <filter x="-19.9%" y="-14.4%" width="140.0%" height="157.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="64" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.57254902   0 0 0 0 0.654901961   0 0 0 0 0.843137255  0 0 0 0.272475091 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-8" x="0" y="0" width="499.24183" height="378.372064" rx="17.25"></rect>
+    </defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-page-mvp" transform="translate(-112.000000, -2916.000000)">
+            <g id="no-downloads" transform="translate(112.000000, 2916.000000)">
+                <g id="illustration-browsers" transform="translate(45.000000, 0.000000)">
+                    <g id="browsers">
+                        <g id="web-browser-copy-2" filter="url(#filter-1)" transform="translate(204.758170, 349.624013)">
+                            <g id="Rectangle-4">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <use id="Mask" fill="#F3F5FA" xlink:href="#path-2"></use>
+                                <rect fill="#FFFFFF" mask="url(#mask-3)" x="-11.2092293" y="59.6071761" width="520.79804" height="340.365614"></rect>
+                            </g>
+                            <g id="Group-4-Copy" transform="translate(25.032149, 21.450298)">
+                                <ellipse id="Oval" fill="#3400FF" cx="9.15016815" cy="8.58061377" rx="9.15016815" ry="8.58061377"></ellipse>
+                                <ellipse id="Oval-Copy" stroke="#92A7D7" stroke-width="2.5875" style="mix-blend-mode: multiply;" cx="37.5962867" cy="8.58061377" rx="9.15016815" ry="8.58061377"></ellipse>
+                            </g>
+                        </g>
+                        <g id="web-browser-copy" filter="url(#filter-4)" transform="translate(0.000000, 175.962085)">
+                            <g id="Rectangle-4">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <use id="Mask" fill="#F3F5FA" xlink:href="#path-5"></use>
+                                <rect fill="#FFFFFF" mask="url(#mask-6)" x="-11.2092293" y="59.6071761" width="520.79804" height="340.365614"></rect>
+                            </g>
+                            <g id="Group-4-Copy" transform="translate(25.032149, 21.450298)">
+                                <ellipse id="Oval" fill="#3400FF" cx="9.15016815" cy="8.58061377" rx="9.15016815" ry="8.58061377"></ellipse>
+                                <ellipse id="Oval-Copy" stroke="#92A7D7" stroke-width="2.5875" style="mix-blend-mode: multiply;" cx="37.5962867" cy="8.58061377" rx="9.15016815" ry="8.58061377"></ellipse>
+                            </g>
+                        </g>
+                        <g id="web-browser" filter="url(#filter-7)" transform="translate(150.692810, 0.000000)">
+                            <g id="Rectangle-2">
+                                <mask id="mask-9" fill="white">
+                                    <use xlink:href="#path-8"></use>
+                                </mask>
+                                <use id="Mask" fill="#F3F5FA" xlink:href="#path-8"></use>
+                                <rect fill="#FFFFFF" mask="url(#mask-9)" x="-10.3469809" y="48.3768386" width="518.211295" height="340.365614"></rect>
+                            </g>
+                            <g id="Group-4-Copy" transform="translate(25.032149, 21.450298)" fill="#92A7D7">
+                                <ellipse id="Oval" cx="5.33847199" cy="5.35452119" rx="5.33847199" ry="5.35452119"></ellipse>
+                                <ellipse id="Oval-Copy" cx="21.934758" cy="5.35452119" rx="5.33847199" ry="5.35452119"></ellipse>
+                                <ellipse id="Oval-Copy-2" cx="38.5310439" cy="5.35452119" rx="5.33847199" ry="5.35452119"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                    <circle id="Oval-3" fill="#92A7D7" cx="618" cy="561" r="42"></circle>
+                    <circle id="Oval-3-Copy" fill="#92A7D7" cx="206" cy="459" r="42"></circle>
+                    <circle id="Oval-3-Copy-2" fill="#92A7D7" cx="390" cy="208" r="42"></circle>
+                    <path d="M390.5,207.5 L618.5,560.5" id="Line" stroke="#1F0166" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M205.5,459.5 L618,561" id="Line-Copy" stroke="#1F0166" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M206,459 L391,208" id="Line-Copy" stroke="#1F0166" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

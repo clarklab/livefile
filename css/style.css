@@ -1,0 +1,208 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --dark: #1F0166;
+  --light: #F3F5FA;
+  --blue: #3400FF;
+}
+
+.white, a.white{
+	color: var(--white);
+}
+
+.black, a.black{
+	color: var(--black);
+}
+
+.dark, a.dark{
+	color: var(--dark);
+}
+
+.light, a.light{
+	color: var(--light);
+}
+
+.blue, a.blue{
+	color: var(--blue);
+}
+
+.bg-dark{
+	background-color:var(--dark);
+	color:var(--white);
+}
+
+.bg-light{
+	background-color:var(--light);
+}
+
+.bg-blue{
+	background-color:var(--blue);
+	color:var(--white);
+}
+
+body{font-family: 'Inter UI', sans-serif; color: var(--dark); margin:0; padding:0; font-size:16px;}
+
+a{
+	text-decoration: none;
+	color: var(--blue);
+	transition: .2s ease all;
+}
+
+a:hover{
+	color:var(--dark);
+}
+
+header, footer{
+	padding:1.5rem 1rem;
+	position: relative;
+	z-index: 2;
+}
+
+nav a{
+	color:var(--dark);
+	margin-left:1.5rem;
+}
+nav a:hover{
+	color:var(--blue);
+}
+
+footer .icon{
+	position: relative;
+	top:2px;
+}
+
+.logo{
+	width:77px;
+	height:auto;
+}
+
+.hero{
+	position: relative;
+}
+
+.hero .inner{
+	position: relative;
+	z-index: 2;
+}
+
+.hero .art{
+	position: absolute;
+	top:-100px;
+	left:50%;
+	transform:translateX(-50%);
+	height:120%;
+	z-index: 1;
+}
+
+.card{
+	background: var(--white);
+	box-shadow: 0 15px 30px -8px #C7CDDD;
+	border-radius: 20px;
+	padding:1.6rem;
+}
+
+.browsers .art{
+	position:relative;
+	left:-2rem;
+	transform:scale(1.1);
+}
+
+input{
+	background:transparent;
+	border:none;
+	border-bottom:#3400FF 1px solid;
+	font-family: 'Inter UI', sans-serif;
+	font-size:16px;
+	padding:.6rem 0;
+	margin-bottom:1rem;
+}
+
+textarea, select, input, button { outline: none; }
+
+.subscribe input{
+	width:100%;
+}
+
+.hero input::placeholder{
+	color:var(--dark);
+	transition: .2s ease all;
+}
+
+input:focus::placeholder{
+	opacity: 0.4;
+}
+
+.subscribe input::placeholder{
+	color:var(--white);
+	transition: .2s ease all;
+}
+
+.hero button:after{
+	content:"927 ahead of you";
+	color:var(--blue);
+	position: absolute;
+	width:100%;
+	font-size:12px;
+	bottom:-25px;
+	left:0;
+	right:0;
+}
+
+button, .button{
+	border-radius:100px;
+	border:none;
+	background:var(--blue);
+	color:var(--white);
+	padding:1rem 1.5rem;
+	font-family: 'Inter UI', sans-serif;
+	font-size: 16px;
+	transition: .2s ease all;
+	position: relative;
+}
+
+button:hover, .button:hover{
+	cursor: pointer;
+	transform:scale(1.2);
+	transform-origin: 50% 50%;
+}
+
+.preview{
+	background: var(--white);
+	box-shadow: 0 15px 31px -8px #C7CDDD;
+	border-radius: 20px;
+	padding-top:50%;
+	animation: pulse 7s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100%{
+    	transform: scale(1.0);
+    }
+}
+
+@media screen and (min-width:52rem){
+	.hero{
+		margin-bottom:10rem;
+	}
+}
+
+.hero path {
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation: dash 1s ease-in-out forwards;
+  animation-delay:1s;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
