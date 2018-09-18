@@ -101,6 +101,7 @@ footer .icon{
 	box-shadow: 0 15px 30px -8px #C7CDDD;
 	border-radius: 20px;
 	padding:1.6rem;
+	margin-bottom:2rem;
 }
 
 .browsers .art{
@@ -191,6 +192,25 @@ button:hover, .button:hover{
 @media screen and (min-width:52rem){
 	.hero{
 		margin-bottom:10rem;
+	}
+}
+
+@media screen and (max-width:52rem){
+	nav{display: flex; justify-content: space-between; margin-top:1rem;}
+	nav a{margin:0;}
+	.join{position: absolute; top:1.5rem; right:1rem;}
+	.hero input{width:45%;}
+	.hero h1{margin-top:2rem;}
+
+	.anything .art, .browsers .art{
+		max-width:50%;
+	}
+	.browsers .art{
+		transform: scale(1);
+		left:0;
+	}
+	.card{
+		padding:1rem;
 	}
 }
 
