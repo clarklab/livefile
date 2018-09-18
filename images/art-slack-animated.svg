@@ -1,45 +1,35 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Keyshape -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="648px" height="579px" viewBox="0 0 648 579">
-    <defs>
-        <linearGradient id="Gradient-0" x1="0" y1="0.5" x2="0.842175" y2="0.5">
-            <stop offset="0" stop-color="#24066a" stop-opacity="0.6"/>
-            <stop offset="1" stop-color="#ffffff"/>
-        </linearGradient>
-    </defs>
-    <style>
-@keyframes Fill-1_t { 0% { transform: translate(0px,0px); } 20% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,1,1); } 22% { transform: translate(0px,30.000001px); animation-timing-function: cubic-bezier(0,0,0.58,1); } 24% { transform: translate(0px,0px); } 100% { transform: translate(0px,0px); } }
-@keyframes Oval-2-Copy-3_t { 0% { transform: translate(263px,75px); } 12% { transform: translate(263px,75px); } 14% { transform: translate(357px,75px); } 32% { transform: translate(357px,75px); } 34% { transform: translate(263px,75px); } 100% { transform: translate(263px,75px); } }
-@keyframes Oval-2-Copy-2_t { 0% { transform: translate(169px,75px); } 10% { transform: translate(169px,75px); } 14% { transform: translate(357px,75px); } 32% { transform: translate(357px,75px); } 36% { transform: translate(169px,75px); } 100% { transform: translate(169px,75px); } }
-@keyframes Rectangle-13_t { 0% { transform: translate(2px,0px); } 8% { transform: translate(2px,0px); } 14% { transform: translate(282px,0px); } 32% { transform: translate(282px,0px); } 38% { transform: translate(0px,0px); } 100% { transform: translate(0px,0px); } }
-@keyframes Rectangle-13_w { 0% { width: 416px; } 8% { width: 416px; } 14% { width: 136px; } 32% { width: 136px; } 38% { width: 418px; } 100% { width: 418px; } }
-@keyframes a0_t { 0% { transform: translate(75px,75px); } 8% { transform: translate(75px,75px); animation-timing-function: cubic-bezier(0.42,0,1,1); } 14% { transform: translate(357px,75px); } 32% { transform: translate(357px,75px); animation-timing-function: cubic-bezier(0.42,0,1,1); } 38% { transform: translate(75px,75px); } 100% { transform: translate(75px,75px); } }
-@keyframes slack_t { 0% { transform: rotate(0deg) translate(-75px,-75px); } 8% { transform: rotate(0deg) translate(-75px,-75px); } 14% { transform: rotate(360deg) translate(-75px,-75px); } 32% { transform: rotate(360deg) translate(-75px,-75px); } 38% { transform: rotate(0deg) translate(-75px,-75px); } 100% { transform: rotate(0deg) translate(-75px,-75px); } }
-    </style>
-    <title>art-slack</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="landing-page-mvp" transform="translate(-1116,-2037)">
-            <g id="present-anything" transform="translate(227,2037)">
-                <g id="illustration-slack-markup" transform="translate(889,0)">
-                    <rect id="Rectangle-14-Copy" fill="#F3F5FA" width="438" height="579" rx="20" transform="translate(0,0) translate(150,0)"/>
-                    <path id="Fill-1" d="M640.597,168.917C633.555,165.201,623.539,166.812,619.599,174.416C599.947,212.341,579.805,250.012,559.166,287.411C538.527,324.81,517.398,361.938,495.782,398.781C486.575,414.475,477.279,430.117,467.897,445.707C446.46,428.004,425.023,410.301,403.586,392.598C396.104,386.42,388.624,380.242,381.142,374.064C377.923,371.405,374.615,369.574,370.29,369.574C366.526,369.574,362.03,371.244,359.438,374.064C354.253,379.706,352.831,390.285,359.438,395.742C385.819,417.527,412.199,439.313,438.58,461.098C446.061,467.276,453.541,473.454,461.023,479.632C464.917,482.849,468.798,484.535,473.915,483.848C478.68,483.209,482.607,480.682,485.127,476.529C507.284,440.009,528.968,403.202,550.161,366.113C571.354,329.025,592.059,291.659,612.269,254.027C623.705,232.733,634.982,211.351,646.103,189.889C649.79,182.774,648.18,172.919,640.597,168.917" fill="#92A7D7" style="animation: Fill-1_t 5s linear infinite both;"/>
-                    <g id="Group-10" transform="translate(0,122)">
-                        <ellipse id="Oval-2-Copy-3" fill-opacity="0.5" fill="#24066A" rx="75" ry="75" transform="translate(0,0) translate(263,75)" style="animation: Oval-2-Copy-3_t 5s linear infinite both;"/>
-                        <ellipse id="Oval-2-Copy-2" fill-opacity="0.75" fill="#24066A" rx="75" ry="75" transform="translate(0,0) translate(169,75)" style="animation: Oval-2-Copy-2_t 5s linear infinite both;"/>
-                        <rect id="Rectangle-13" fill="url(#Gradient-0)" width="416" height="150" rx="75" transform="translate(0,0) translate(2,0)" style="animation: Rectangle-13_t 5s linear infinite both, Rectangle-13_w 5s linear infinite both;"/>
-                        <ellipse id="Oval-2-Copy" fill="#FFFFFF" rx="75" ry="75" transform="translate(0,0) translate(357,75)"/>
-                        <g id="slack" style="animation: a0_t 5s linear infinite both;">
-                            <g transform="translate(75,75) translate(-75,-75)" style="animation: slack_t 5s linear infinite both;">
-                                <ellipse id="Oval-2" fill="#24066A" rx="75" ry="75" transform="translate(0,0) translate(75,75)"/>
-                                <g id="np_slack_329775_000000" fill="#FFFFFF" fill-rule="nonzero" transform="translate(45,45)">
-                                    <path id="Shape" d="M29.3869,46.434C30.0937,48.9333,31.3141,51.9878,31.5568,53.5687C32.3531,58.7689,24.9459,61.2539,22.0388,57.0565C20.6511,55.0491,20.5875,53.1939,19.5344,49.917C15.8237,50.936,13.8164,52.4304,11.0199,52.0744C6.80271,51.5356,5.70718,45.745,8.6828,43.1101C10.5535,41.4541,13.5997,41.4892,16.196,40.2899C16.196,40.2899,13.7529,32.6467,12.3558,29.0019C9.56862,29.8265,5.48547,31.5598,3.67366,31.1593C1.47083,30.3067,-0.0370048,28.5428,0.000691106,26.1794C0.0784411,21.3586,5.58674,21.0073,9.18461,19.5388C8.29402,16.7349,6.82153,14.7953,7.01236,11.736C7.2621,7.8031,11.9529,5.52656,15.3621,7.91788C16.9737,9.04691,18.0173,13.1625,19.0351,16.2171L30.2238,12.5653C28.9445,8.49421,26.492,4.48856,29.5547,1.4411C31.8471,-0.838077,35.8949,-0.261807,37.5698,2.10402C39.1106,4.28245,39.2684,6.93408,40.0742,9.24354C43.1016,8.21525,46.9185,6.2991,49.7689,7.25951C52.1084,8.0489,53.237,11.1245,52.5985,13.0617C51.4228,16.765,47.1891,17.2569,43.4146,18.5382L47.0875,29.8262C50.2257,28.8049,51.816,27.4861,54.7678,27.5025C57.7788,27.5189,59.6659,29.6763,59.9439,31.8172C60.6601,37.3711,54.3508,37.8749,50.4259,39.2871C51.6321,43.1685,52.6593,44.0024,52.5981,47.0899C52.4921,52.372,45.7821,53.595,42.9124,49.5798C41.8734,48.1322,41.6095,45.8015,40.5729,42.7797C40.5729,42.7797,29.5633,46.5885,29.3866,46.4339L29.3869,46.434ZM37.2349,33.1528L33.2274,21.8648L22.3758,25.683L26.0488,36.8048L37.2349,33.1528Z"/>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="648" height="579">
+  <defs>
+    <linearGradient id="Gradient-0" y1=".5" x2=".842" y2=".5">
+      <stop offset="0" stop-color="#24066a" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes Fill-1_t{0%,24%,to{transform:translate(0,0)}20%{transform:translate(0,0);animation-timing-function:cubic-bezier(.42,0,1,1)}22%{transform:translate(0,30.000001px);animation-timing-function:cubic-bezier(0,0,.58,1)}}@keyframes Oval-2-Copy-3_t{0%,12%,34%,to{transform:translate(263px,75px)}14%,32%{transform:translate(357px,75px)}}@keyframes Oval-2-Copy-2_t{0%,10%,36%,to{transform:translate(169px,75px)}14%,32%{transform:translate(357px,75px)}}@keyframes Rectangle-13_t{0%,8%{transform:translate(2px,0)}14%,32%{transform:translate(282px,0)}38%,to{transform:translate(0,0)}}@keyframes Rectangle-13_w{0%,8%{width:416px}14%,32%{width:136px}38%,to{width:418px}}@keyframes a0_t{0%,38%,to{transform:translate(75px,75px)}8%{transform:translate(75px,75px);animation-timing-function:cubic-bezier(.42,0,1,1)}14%{transform:translate(357px,75px)}32%{transform:translate(357px,75px);animation-timing-function:cubic-bezier(.42,0,1,1)}}@keyframes slack_t{0%,38%,8%,to{transform:rotate(0deg) translate(-75px,-75px)}14%,32%{transform:rotate(360deg) translate(-75px,-75px)}}
+  </style>
+  <g id="Landing" fill="none" fill-rule="evenodd">
+    <g id="landing-page-mvp" transform="translate(-1116 -2037)">
+      <g id="present-anything" transform="translate(227 2037)">
+        <g id="illustration-slack-markup" transform="translate(889)">
+          <rect id="Rectangle-14-Copy" fill="#F3F5FA" width="438" height="579" rx="20" transform="translate(150)"/>
+          <path id="Fill-1" d="M640.597 168.917c-7.042-3.716-17.058-2.105-20.998 5.499a4894.065 4894.065 0 0 1-60.433 112.995 4869.407 4869.407 0 0 1-91.269 158.296l-64.311-53.109-22.444-18.534c-3.219-2.659-6.527-4.49-10.852-4.49-3.764 0-8.26 1.67-10.852 4.49-5.185 5.642-6.607 16.221 0 21.678l79.142 65.356 22.443 18.534c3.894 3.217 7.775 4.903 12.892 4.216 4.765-.639 8.692-3.166 11.212-7.319a4872.145 4872.145 0 0 0 160.976-286.64c3.687-7.115 2.077-16.97-5.506-20.972" fill="#92A7D7" style="animation:Fill-1_t 5s linear infinite both"/>
+          <g id="Group-10" transform="translate(0 122)">
+            <ellipse id="Oval-2-Copy-3" fill-opacity=".5" fill="#24066A" rx="75" ry="75" transform="translate(263 75)" style="animation:Oval-2-Copy-3_t 5s linear infinite both"/>
+            <ellipse id="Oval-2-Copy-2" fill-opacity=".75" fill="#24066A" rx="75" ry="75" transform="translate(169 75)" style="animation:Oval-2-Copy-2_t 5s linear infinite both"/>
+            <rect id="Rectangle-13" fill="url(#Gradient-0)" width="416" height="150" rx="75" transform="translate(2)" style="animation:Rectangle-13_t 5s linear infinite both,Rectangle-13_w 5s linear infinite both"/>
+            <ellipse id="Oval-2-Copy" fill="#FFF" rx="75" ry="75" transform="translate(357 75)"/>
+            <g style="animation:a0_t 5s linear infinite both">
+              <g style="animation:slack_t 5s linear infinite both" id="slack">
+                <ellipse id="Oval-2" fill="#24066A" rx="75" ry="75" transform="translate(75 75)"/>
+                <g id="np_slack_329775_000000" fill="#FFF" fill-rule="nonzero" transform="translate(45 45)">
+                  <path id="Shape" d="M29.387 46.434c.707 2.5 1.927 5.554 2.17 7.135.796 5.2-6.611 7.685-9.518 3.487-1.388-2.007-1.452-3.862-2.505-7.139-3.71 1.019-5.718 2.513-8.514 2.157-4.217-.538-5.313-6.329-2.337-8.964 1.87-1.656 4.917-1.62 7.513-2.82 0 0-2.443-7.643-3.84-11.288-2.787.825-6.87 2.558-8.682 2.157C1.47 30.307-.037 28.543 0 26.18c.077-4.82 5.586-5.172 9.184-6.64-.891-2.804-2.363-4.744-2.173-7.803.25-3.933 4.94-6.21 8.35-3.818 1.612 1.129 2.655 5.244 3.673 8.3l11.189-3.653c-1.28-4.07-3.732-8.076-.67-11.124 2.293-2.28 6.34-1.703 8.016.663 1.54 2.178 1.698 4.83 2.504 7.14 3.028-1.029 6.845-2.945 9.695-1.984 2.34.789 3.468 3.864 2.83 5.802-1.176 3.703-5.41 4.195-9.184 5.476l3.672 11.288c3.139-1.021 4.729-2.34 7.68-2.323 3.012.016 4.899 2.173 5.177 4.314.716 5.554-5.593 6.058-9.518 7.47 1.206 3.882 2.233 4.715 2.172 7.803-.106 5.282-6.816 6.505-9.686 2.49-1.039-1.448-1.303-3.779-2.34-6.8 0 0-11.009 3.809-11.185 3.654zm7.848-13.281l-4.008-11.288-10.851 3.818 3.673 11.122 11.186-3.652z"/>
                 </g>
+              </g>
             </g>
+          </g>
         </g>
+      </g>
     </g>
+  </g>
 </svg>
