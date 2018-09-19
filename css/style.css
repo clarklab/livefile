@@ -88,8 +88,11 @@ h1, h2, h3, .h1, .h2, .h3{
 }
 
 .logo{
-	width:80px;
-	height:auto;
+	font-weight: bold;
+	background:url(../images/logo-mark.svg) center left no-repeat;
+	background-size:auto 75%;
+	padding-left:30px;
+	line-height: 2;
 }
 
 .hero{
@@ -221,11 +224,14 @@ button:hover, .button:hover{
 
 	h1, .h1{font-size:1.8rem;}
 
+	.logo{background-size:auto 100%;}
+
 	header nav{ display: block; background: var(--white); box-shadow: 0 30px 30px -8px #C7CDDD; margin:1.75rem 0 0; position: absolute; left:0; right:0; transform: translateY(40px); transition: .4s ease all; opacity: 0; pointer-events: none;}
 	header nav.open{opacity: 1; pointer-events: all; transform: translateY(0);}
-	header nav a{margin:0; display: block; border-top:1px solid var(--light); padding:1.5rem; text-indent: .5rem; line-height:1;}
+	header nav a{margin:0; display: block; border-bottom:1px solid var(--light); padding:1.5rem; text-indent: .5rem; line-height:1;}
+	header nav a.last{border-bottom:0;}
 
-	footer .logo{margin-bottom:1.5rem;}
+	footer nav{margin-top:1.5rem;}
 	footer nav a{margin:0 1rem 0 0;}
 	footer nav a.full{border-top:1px solid var(--light); padding:1.5rem 2rem; line-height:1; display: block; margin:0 -2rem;}
 	footer nav a.full.last{border-bottom:1px solid var(--light); margin-bottom:1.5rem;}

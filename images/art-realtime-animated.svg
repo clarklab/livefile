@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="380" height="235">
+    <style>
+@keyframes a0_t { 0% { transform: translate(-1px,0px); } 16.6666% { transform: translate(-1px,0px); } 20.8333% { transform: translate(-8px,0px); } 25% { transform: translate(-1px,0px); } 45.8333% { transform: translate(-1px,0px); } 50% { transform: translate(-8px,0px); } 54.1666% { transform: translate(-1px,0px); } 79.1666% { transform: translate(-1px,0px); } 83.3333% { transform: translate(-8px,0px); } 87.5% { transform: translate(-1px,0px); } 100% { transform: translate(-1px,0px); } }
+@keyframes a1_t { 0% { transform: translate(0px,0px); } 4.1666% { transform: translate(0px,2px); } 8.3333% { transform: translate(0px,0px); } 50% { transform: translate(0px,-0.25px); } 54.1666% { transform: translate(0px,2px); } 58.3333% { transform: translate(0px,0px); } 100% { transform: translate(0px,0px); } }
+@keyframes a2_t { 0% { transform: translate(172px,0px); } 4.1666% { transform: translate(172px,0px); } 8.3333% { transform: translate(170px,2.001px); } 12.5% { transform: translate(172px,0.001px); } 33.3333% { transform: translate(172px,0px); } 37.5% { transform: translate(170px,2.001px); } 41.6666% { transform: translate(172px,0.001px); } 62.5% { transform: translate(172px,0px); } 66.6666% { transform: translate(170px,2.001px); } 70.8333% { transform: translate(172px,0.001px); } 91.6666% { transform: translate(172px,0px); } 95.8333% { transform: translate(170px,2.001px); } 100% { transform: translate(172px,0.001px); } }
+    </style>
+    <g fill="none" fill-rule="evenodd" transform="translate(-24,0)">
+        <rect fill="#F3F5FA" width="380" height="205" rx="20" transform="translate(0,0) translate(24,30)"/>
+        <g transform="translate(0,71)">
+            <path d="M0,0L232.844,0L180.717,123L0,123L0,0Z" fill="#FFF" transform="translate(-1,0)" style="animation: a0_t 2.4s linear infinite both;"/>
+            <g stroke="#1F0166" stroke-linecap="round" stroke-width="2" transform="translate(24,35)">
+                <path d="M177,1L0.602,1M176.132,31L0.868,31M172,60L1.147,60" style="animation: a1_t 2.4s linear infinite both;"/>
+            </g>
+            <g fill="#92A7D7" transform="translate(172,0)" style="animation: a2_t 2.4s linear infinite both;">
+                <path d="M0.55,67L34.033,67L60.821,0.099Z"/>
+                <path d="M33.973,57L7.18,123.901L67.451,57Z"/>
+            </g>
+        </g>
+    </g>
+</svg>
