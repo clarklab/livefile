@@ -13,25 +13,27 @@
 <header class="clearfix">
 	<div class="max-width-4 mx-auto">
 	<div class="md-flex lg-flex items-center">
-	<a href="/"><img src="images/logo.svg" class="logo" alt=""></a>
+	<a href="/" class="line-height-0"><img src="images/logo.svg" class="logo" alt=""></a>
 	<nav class="flex-auto">
 		<a href="#">Features</a>
 		<a href="#">Use Cases</a>
 		<a href="#">Team</a>
 		<a href="#">Blog</a>
 	</nav> 
-	<a href="#" class="join">Join the Waitlist</a>
+	<a href="#" class="join medium xs-hide sm-hide">Join the Waitlist</a>
+	<a href="#" class="join button md-hide lg-hide">Waitlist</a>
+	<a href="#" class="toggle"><img src="https://icon.now.sh/more_vert/24/1F0166" class="md-hide lg-hide" alt=""></a>
 	</div>
 	</div>
 </header>
 
 <div class="hero clearfix mb4 pb4">
 	<div class="max-width-3 mx-auto center">
-		<div class="inner px2">
+		<div class="inner px3">
 		<h1 class="center max-width-1 mx-auto mt4">Interactive presentations for remote teams.</h1>
-		<form action="" class="mx-auto mb3">
+		<form action="" class="mx-auto mb3 xs-hide sm-hide">
 			<input type="text" placeholder="Your Name" class="text mr1 ">
-			<input type="text" placeholder="Your Email" class="text mr1 mb3"><button>Join the Waitlist</button>
+			<input type="text" placeholder="Your Email" class="text mr1 mb3"><button class="medium">Join the Waitlist</button>
 		</form>
 		<div class="image preview">
 			&nbsp;
@@ -49,16 +51,18 @@
 	<div class="max-width-4 mx-auto">
 	<div class="md-flex lg-flex items-center">
 
-		<div class="sm-col sm-col-7 px2">
+		<div class="sm-col sm-col-7 px3">
 			<h2 class="h1">Present Anything</h2>
-			<p>Drop any file into LiveFile and get an immediate, shareable link to send to your team ahead of a meeting.</p>
-			<p class="bold">Slack Integration</p>
-			<p>Turn any file in Slack into a LiveFile presentation.</p>
-			<p class="bold">Anytime Markup</p>
-			<p>Did somebody miss your presentation? They can view everyone's notes and share their own afterwards.</p>
+			<p class="mt0 mb3">Drop any file into LiveFile and get an immediate, shareable link to send to your team ahead of a meeting.</p>
+			<img src="https://icon.now.sh/slack/18/3400FF" alt="" class="icon md-hide lg-hide">
+			<p class="bold mt0 mb1">Slack Integration</p>
+			<p class="mt0 mb3">Turn any file in Slack into a LiveFile presentation.</p>
+			<img src="https://icon.now.sh/clock/18/3400FF" alt="" class="icon md-hide lg-hide">
+			<p class="bold mt0 mb1">Anytime Markup</p>
+			<p class="mt0 mb3">Did somebody miss your presentation? They can view everyone's notes and share their own afterwards.</p>
 		</div>
 
-		<div class="sm-col sm-col-5 px2">
+		<div class="sm-col sm-col-5 px3">
 			<img src="images/art-slack-animated.svg" class="art fit" alt="Sharing via Slack">
 		</div>
 
@@ -70,14 +74,15 @@
 	<div class="max-width-4 mx-auto">
 	<div class="md-flex lg-flex items-center">
 
-		<div class="order-2 sm-col sm-col-7 px2">
+		<div class="order-2 sm-col sm-col-7 px3">
 			<h2 class="h1">No Downloads</h2>
-			<p>LiveFile runs in your browser, so there’s no need to download an app to participate. One click and everyone is in!</p>
-			<p class="bold">Works with all major browsers</p>
-			<p>Chrome, Internet Explorer, Firefox, Safari – you name it.</p>
+			<p class="mt0 mb3">LiveFile runs in your browser, so there’s no need to download an app to participate. One click and everyone is in!</p>
+			<img src="https://icon.now.sh/desktop_windows/18/3400FF" alt="" class="icon md-hide lg-hide"> <img src="https://icon.now.sh/phone_iphone/18/3400FF" alt="" class="icon md-hide lg-hide">
+			<p class="bold mt0 mb1">Works with all major browsers</p>
+			<p class="mt0 mb3">Chrome, Internet Explorer, Firefox, Safari – you name it.</p>
 		</div>
 
-		<div class="order-1 sm-col sm-col-5 px2">
+		<div class="order-1 sm-col sm-col-5 px3">
 			<img src="images/art-browsers-animated.svg" class="art fit" alt="Sharing via Slack">
 		</div>
 
@@ -108,7 +113,7 @@
 </div>
 
 <div class="subscribe clearfix bg-dark py4">
-	<div class="max-width-1 mx-auto px2">
+	<div class="max-width-1 mx-auto px3">
 		<p class="h1 center">Join the Waitlist</p>
 		<p class="center mb3">We are so excited to get you access to what we’re building. We think this will change your life.</p>
 		<form action="">
@@ -126,10 +131,10 @@
 	<div class="md-flex lg-flex items-center">
 	<a href="/"><img src="images/logo.svg" class="logo" alt=""></a>
 	<nav class="flex-auto">
-		<a href="#">Features</a>
-		<a href="#">Use Cases</a>
-		<a href="#">Team</a>
-		<a href="#">Blog</a>
+		<a href="#" class="full">Features</a>
+		<a href="#" class="full">Use Cases</a>
+		<a href="#" class="full">Team</a>
+		<a href="#" class="full last">Blog</a>
 		<a href=""><img src="https://icon.now.sh/twitter/16/1F0166" alt="" class="icon"></a>
 		<a href=""><img src="https://icon.now.sh/facebook/16/1F0166" alt="" class="icon"></a>
 		<a href=""><img src="https://icon.now.sh/linkedin/16/1F0166" alt="" class="icon"></a>
@@ -139,7 +144,27 @@
 	</div>
 </footer>
 
-<!-- script type="text/javascript" src='https://code.jquery.com/jquery-3.3.1.min.js'></script -->
+<script type="text/javascript" src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+
+<script>
+
+	$( document ).ready(function() {
+
+  	function handler1() {
+	   $("nav").addClass("open");
+	   $('.toggle img').attr('src','https://icon.now.sh/close/24/1F0166');
+	   $(this).one("click", handler2);
+	}
+	function handler2() {
+	   $("nav").removeClass("open");
+	   $('.toggle img').attr('src','https://icon.now.sh/more_vert/24/1F0166');
+	   $(this).one("click", handler1);
+	}
+	$(".toggle").one("click", handler1);
+
+	});
+
+</script>
 
 </body>
 </html>

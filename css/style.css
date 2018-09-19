@@ -42,7 +42,7 @@
 	color:var(--white);
 }
 
-body{font-family: 'Inter UI', sans-serif; color: var(--dark); margin:0; padding:0; font-size:16px;}
+body{font-family: 'Inter UI', sans-serif; letter-spacing:-.01rem; line-height:1.5; color: var(--dark); margin:0; padding:0; font-size:16px;}
 
 a{
 	text-decoration: none;
@@ -55,14 +55,15 @@ a:hover{
 }
 
 header, footer{
-	padding:1.5rem 1rem;
+	padding:2rem 2rem;
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 }
 
 nav a{
 	color:var(--dark);
 	margin-left:1.5rem;
+	line-height: 2;
 }
 nav a:hover{
 	color:var(--blue);
@@ -73,8 +74,20 @@ footer .icon{
 	top:2px;
 }
 
+h1, h2, h3, .h1, .h2, .h3{
+	letter-spacing:-.03rem;
+}
+
+.line-height-0{
+	line-height: 0;
+}
+
+.medium{
+	font-weight:500;
+}
+
 .logo{
-	width:77px;
+	width:80px;
 	height:auto;
 }
 
@@ -167,6 +180,13 @@ button:hover, .button:hover{
 	cursor: pointer;
 	transform:scale(1.2);
 	transform-origin: 50% 50%;
+	color: var(--white);
+	background-color:var(--dark);
+}
+
+.bg-dark button:hover, .bg-dark .button:hover{
+	background-color:var(--white);
+	color:var(--dark);
 }
 
 .preview{
@@ -196,21 +216,37 @@ button:hover, .button:hover{
 }
 
 @media screen and (max-width:52rem){
-	nav{display: flex; justify-content: space-between; margin-top:1rem;}
-	nav a{margin:0;}
-	.join{position: absolute; top:1.5rem; right:1rem;}
+
+	h1, .h1{font-size:1.8rem;}
+
+	header nav{display: block; background: var(--white); box-shadow: 0 30px 30px -8px #C7CDDD; margin:1.75rem -2rem 0; position: absolute; left:0; right:0; transform: translateY(40px); transition: .4s ease all; opacity: 0; pointer-events: none;}
+	header nav.open{opacity: 1; pointer-events: all; transform: translateY(0);}
+	header nav a{margin:0; display: block; border-top:1px solid var(--light); padding:1.5rem; text-indent: 2.5rem; line-height:1;}
+
+	footer .logo{margin-bottom:1.5rem;}
+	footer nav a{margin:0 1rem 0 0;}
+	footer nav a.full{border-top:1px solid var(--light); padding:1.5rem 2rem; line-height:1; display: block; margin:0 -2rem;}
+	footer nav a.full.last{border-bottom:1px solid var(--light); margin-bottom:1.5rem;}
+
+	.toggle{position: absolute; right:1rem; top:2rem;}
+	.join{position: absolute; top:1rem; right:3.5rem;}
 	.hero input{width:45%;}
 	.hero h1{margin-top:2rem;}
 
 	.anything .art, .browsers .art{
-		max-width:50%;
+		max-width:80%;
+		margin:0 auto;
 	}
 	.browsers .art{
 		transform: scale(1);
 		left:0;
 	}
+	.sm-col-5{
+		text-align: center;
+	}
 	.card{
-		padding:1rem;
+		margin-left: 2rem;
+		margin-right: 2rem;
 	}
 }
 
