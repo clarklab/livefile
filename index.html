@@ -167,11 +167,13 @@
 	   $("nav").addClass("open");
 	   $('.toggle img').attr('src','https://icon.now.sh/close/24/1F0166');
 	   $(this).one("click", handler2);
+	   return false;
 	}
 	function handler2() {
 	   $("nav").removeClass("open");
 	   $('.toggle img').attr('src','https://icon.now.sh/more_vert/24/1F0166');
 	   $(this).one("click", handler1);
+	   return false;
 	}
 	$(".toggle").one("click", handler1);
 

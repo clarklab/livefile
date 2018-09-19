@@ -60,6 +60,10 @@ header, footer{
 	z-index: 3;
 }
 
+header nav{
+	opacity: 0;
+}
+
 nav a{
 	color:var(--dark);
 	margin-left:1.5rem;
@@ -218,6 +222,9 @@ button:hover, .button:hover{
 }
 
 @media screen and (min-width:52rem){
+	header nav{
+		opacity: 1;
+	}
 	.hero{
 		padding-bottom:10rem;
 	}
