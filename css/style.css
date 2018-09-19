@@ -158,13 +158,16 @@ input:focus::placeholder{
 	transition: .2s ease all;
 }
 
-.hero button:after{
-	content:"927 ahead of you";
-	color:var(--blue);
+.hero .count {
+	position: relative;
+}
+
+.hero .count .text{
+	color:var(--dark);
 	position: absolute;
 	width:100%;
 	font-size:12px;
-	bottom:-25px;
+	bottom:-40px;
 	left:0;
 	right:0;
 }
@@ -183,7 +186,7 @@ button, .button{
 
 button:hover, .button:hover{
 	cursor: pointer;
-	transform:scale(1.2);
+	transform:scale(1.1);
 	transform-origin: 50% 50%;
 	color: var(--white);
 	background-color:var(--dark);
