@@ -227,7 +227,7 @@ button:hover, .button:hover{
 
 	h1, .h1{font-size:1.8rem;}
 
-	.logo{background-size:auto 100%;}
+	.logo{background-size:auto 100%; font-size:18px;}
 
 	header nav{ display: block; background: var(--white); box-shadow: 0 30px 30px -8px #C7CDDD; margin:1.75rem 0 0; position: absolute; left:0; right:0; transform: translateY(40px); transition: .4s ease all; opacity: 0; pointer-events: none;}
 	header nav.open{opacity: 1; pointer-events: all; transform: translateY(0);}
@@ -241,8 +241,8 @@ button:hover, .button:hover{
 
 	.hero .art{height:100%;}
 
-	.toggle{position: absolute; right:1rem; top:2rem;}
-	.join{position: absolute; top:1rem; right:3.5rem;}
+	.toggle{position: absolute; right:1rem; top:2.4rem;}
+	.join{position: absolute; top:1.4rem; right:3.5rem;}
 	.hero input{width:45%;}
 	.hero h1{margin-top:2rem;}
 
