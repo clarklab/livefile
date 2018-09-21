@@ -206,7 +206,7 @@ button:hover, .button:hover{
 	border-radius: 10px;
 	line-height: 0;
 	overflow: hidden;
-	border:3px solid var(--dark);
+	box-shadow: 0 10px 35px -8px #606266;
 }
 
 @keyframes fade {
