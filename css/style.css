@@ -93,7 +93,7 @@ h1, h2, h3, .h1, .h2, .h3{
 
 .logo{
 	font-weight: bold;
-	background:url(../images/logo-mark.svg) center left no-repeat;
+	background:url(../images/logo-mark-animated.svg) center left no-repeat;
 	background-size:auto 75%;
 	padding-left:30px;
 	line-height: 2;
@@ -203,11 +203,27 @@ button:hover, .button:hover{
 
 .preview{
 	background: var(--white);
-	box-shadow: 0 15px 31px -8px #C7CDDD;
-	border-radius: 20px;
-	padding-top:50%;
-	animation: pulse 7s ease-in-out infinite;
+	border-radius: 10px;
+	line-height: 0;
+	overflow: hidden;
+	border:3px solid var(--dark);
 }
+
+@keyframes fade {
+  0%   { opacity: 0; }
+  10%   { opacity: 1; }
+  20%  { opacity: 1; }
+  30%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.preview { position:relative; padding-top:60.6%; }
+.preview img { position:absolute; top:0; left:0; right:0; opacity:0; animation-name: fade; animation-duration: 20s; animation-iteration-count: infinite; }
+.preview img:nth-child(1) { animation-delay: 0s;  }
+.preview img:nth-child(2) { animation-delay: 4s;  }
+.preview img:nth-child(3) { animation-delay: 8s;  }
+.preview img:nth-child(4) { animation-delay: 12s;  }
+.preview img:nth-child(5) { animation-delay: 16s;  }
 
 @keyframes pulse {
     0% {
