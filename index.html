@@ -1,36 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>LiveFile</title>
-	<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
+---
+layout: landing
+---
 
 <div class="hero clearfix mb4 pb4">
 
-	<header class="clearfix">
-		<div class="max-width-4 mx-auto">
-		<div class="md-flex lg-flex items-center">
-			<a href="/" class="logo">LiveFile</a>
-		<nav class="flex-auto">
-			<a href="#">Features</a>
-			<a href="#">Use Cases</a>
-			<a href="#">Team</a>
-			<a href="#" class="last">Blog</a>
-		</nav> 
-		<a href="#" class="join medium xs-hide sm-hide">Join the Waitlist</a>
-		<a href="#" class="join medium button md-hide lg-hide">Waitlist</a>
-		<a href="#" class="toggle"><img src="https://icon.now.sh/more_vert/24/1F0166" class="md-hide lg-hide" alt=""></a>
-		</div>
-		</div>
-	</header>
+	{% include header.html %}
 
-
-	<div class="max-width-3 mx-auto center">
+<div class="max-width-3 mx-auto center">
 		<div class="inner px3">
 		<h1 class="center max-width-1 mx-auto mt4">Interactive presentations for remote teams.</h1>
 		<form action="" class="mx-auto mb3 xs-hide sm-hide">
@@ -123,69 +99,3 @@
 		</div>
 	</div>
 </div>
-
-<div class="subscribe clearfix bg-dark py4">
-	<div class="max-width-1 mx-auto px3">
-		<p class="h1 center bold">Join the Waitlist</p>
-		<p class="center mb3">We are so excited to get you access to what we’re building. We think this will change your life.</p>
-		<form action="">
-			<input type="text" placeholder="Your Name" class="text">
-			<input type="text" placeholder="Your Email" class="text mb3">
-			<div class="center">
-				<button class="medium">Join the Waitlist</button>
-			</div>
-		</form>
-	</div>
-</div>
-
-<footer class="clearfix">
-	<div class="max-width-4 mx-auto">
-	<div class="md-flex lg-flex items-center">
-	<a href="/" class="logo">LiveFile</a>
-	<nav class="flex-auto">
-		<a href="#" class="full">Features</a>
-		<a href="#" class="full">Use Cases</a>
-		<a href="#" class="full">Team</a>
-		<a href="#" class="full last">Blog</a>
-		<a href=""><img src="https://icon.now.sh/twitter/16/1F0166" alt="" class="icon"></a>
-		<a href=""><img src="https://icon.now.sh/facebook/16/1F0166" alt="" class="icon"></a>
-		<a href=""><img src="https://icon.now.sh/linkedin/16/1F0166" alt="" class="icon"></a>
-	</nav>
-	<p>© 2018 LiveFile, All Rights Reserved. <br class="sm-hide md-hide lg-hide"><a href="#">We're hiring.</a></p>
-	</div>
-	</div>
-</footer>
-
-<script type="text/javascript" src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
-
-<script>
-
-	$( document ).ready(function() {
-
-	$(".join").click(function() {
-	    $('html, body').animate({
-	        scrollTop: $(".subscribe").offset().top
-	    }, 500);
-	    return false;
-	});
-
-  	function handler1() {
-	   $("nav").addClass("open");
-	   $('.toggle img').attr('src','https://icon.now.sh/close/24/1F0166');
-	   $(this).one("click", handler2);
-	   return false;
-	}
-	function handler2() {
-	   $("nav").removeClass("open");
-	   $('.toggle img').attr('src','https://icon.now.sh/more_vert/24/1F0166');
-	   $(this).one("click", handler1);
-	   return false;
-	}
-	$(".toggle").one("click", handler1);
-
-	});
-
-</script>
-
-</body>
-</html>

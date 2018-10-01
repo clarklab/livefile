@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="single">
+
+  <div class="hero clearfix">
+
+  {% include header.html %}
+
+  <div class="max-width-3 mx-auto center">
+
+  <svg class="art" width="1274" height="1195" viewBox="0 0 1274 1195" xmlns="http://www.w3.org/2000/svg">
+    <path d="M822.728 34c-216.078 9.134-437.544 67.983-601.236 209.326C112.902 337.09 32.067 472.152 34.035 615.607c1.403 102.251 44.881 201.352 110.357 279.902 65.476 78.55 151.87 137.704 244.04 181.998 126.991 61.028 269.37 95.452 409.443 80.262 140.073-15.191 277.107-83.626 359.56-197.875 84.347-116.875 104.736-275.457 59.182-412.202-45.556-136.745-154.004-249.661-286.134-307.246-132.13-57.585-285.703-60.813-422.576-15.646" stroke="#F4F6FA" stroke-width="67" fill="none" fill-rule="evenodd" stroke-linecap="round"/>
+  </svg>
+
+  </div>
+
+  </div>
+
+  <div class="max-width-2 mx-auto">
+    <div class="post py2">
+    	<h1 class="mb1">{{ page.title }}</h1>
+      <p class="meta mt0 mb3">Posted by <a href="https://github.com/{{ page.author }}">@{{ page.author }}</a> on {{ page.date | date: "%b %e, %Y"}}</p>
+
+      <div class="mb4">
+        {{ content }}
+        </div>
+        
+    </div>
+  </div>
+
+
+
+  {% include footer.html %}
+
+  </body>
+
+</html>

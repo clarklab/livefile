@@ -118,6 +118,20 @@ h1, h2, h3, .h1, .h2, .h3{
 	z-index: 1;
 }
 
+.single .hero{
+	overflow: visible;
+}
+
+.single .hero .art{
+	position: absolute;
+	top:-5%;
+	left:50%;
+	transform:translateX(-50%);
+	height:auto;
+	width:80%;
+	z-index: -1;
+}
+
 .card{
 	background: var(--white);
 	box-shadow: 0 10px 35px -8px #C7CDDD;
@@ -243,6 +257,9 @@ button:hover, .button:hover{
 	}
 	.hero{
 		padding-bottom:10rem;
+	}
+	.single .hero{
+		padding-bottom:0;
 	}
 }
 
