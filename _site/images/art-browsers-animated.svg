@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="794" height="837">
+  <style>
+    @keyframes a0_t{0%,to{transform:translate(412px,384.25px) scale(1,1) translate(-206.5px,-176.75px)}50%{transform:translate(412px,384.25px) scale(1.25,1.25) translate(-206.5px,-176.75px)}}@keyframes Oval-3_t{0%{transform:translate(412.5px,353.5px)}to{transform:translate(.500004px,251.500003px)}}@keyframes Oval-3-Copy_t{0%{transform:translate(.5px,251.5px)}to{transform:translate(184.499998px,.5px)}}@keyframes Oval-3-Copy-2_t{0%{transform:translate(184.5px,.5px)}to{transform:translate(412.5px,353.5px)}}
+  </style>
+  <defs>
+    <filter id="filter-1" x="-19.9%" y="-14.4%" width="139.8%" height="157.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="64" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.57254902 0 0 0 0 0.654901961 0 0 0 0 0.843137255 0 0 0 0.272475091 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <rect id="path-2" width="499.242" height="378.372" rx="17.25"/>
+    <filter id="filter-4" x="-19.9%" y="-14.4%" width="140%" height="157.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="64" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.57254902 0 0 0 0 0.654901961 0 0 0 0 0.843137255 0 0 0 0.272475091 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <rect id="path-5" width="499.242" height="378.372" rx="17.25"/>
+    <filter id="filter-7" x="-19.9%" y="-14.4%" width="140%" height="157.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="64" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0.57254902 0 0 0 0 0.654901961 0 0 0 0 0.843137255 0 0 0 0.272475091 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <rect id="path-8" width="499.242" height="378.372" rx="17.25"/>
+    <mask id="mask-3" fill="#fff">
+      <use xlink:href="#path-2" transform="translate(11.21 -59.607)"/>
+    </mask>
+    <mask id="mask-6" fill="#fff">
+      <use xlink:href="#path-5" transform="translate(11.21 -59.607)"/>
+    </mask>
+    <mask id="mask-9" fill="#fff">
+      <use xlink:href="#path-8" transform="translate(10.347 -48.377)"/>
+    </mask>
+  </defs>
+  <g id="Landing" fill="none" fill-rule="evenodd">
+    <g id="landing-page-mvp" transform="translate(-112 -2916)">
+      <g id="no-downloads" transform="translate(112 2916)">
+        <g id="illustration-browsers" transform="translate(45)">
+          <g id="browsers">
+            <g id="web-browser-copy-2" filter="url(#filter-1)" transform="translate(204.758 349.624)">
+              <g id="Rectangle-4">
+                <use id="Mask" fill="#F3F5FA" xlink:href="#path-2"/>
+                <path fill="#FFF" mask="url(#mask-3)" transform="translate(-11.21 59.607)" d="M0 0h520.798v340.366H0z"/>
+              </g>
+              <g id="Group-4-Copy" transform="translate(25.032 21.45)">
+                <ellipse id="Oval" fill="#3400FF" rx="9.15" ry="8.581" transform="translate(9.15 8.58)"/>
+                <ellipse id="Oval-Copy" stroke="#92A7D7" stroke-width="2.587" rx="9.15" ry="8.581" transform="translate(37.596 8.58)" style="mix-blend-mode:multiply"/>
+              </g>
+            </g>
+            <g id="web-browser-copy" filter="url(#filter-4)" transform="translate(0 175.962)">
+              <g id="Rectangle-4-2">
+                <use id="Mask-2" fill="#F3F5FA" xlink:href="#path-5"/>
+                <path fill="#FFF" mask="url(#mask-6)" transform="translate(-11.21 59.607)" d="M0 0h520.798v340.366H0z"/>
+              </g>
+              <g id="Group-4-Copy-2" transform="translate(25.032 21.45)">
+                <ellipse id="Oval-2" fill="#3400FF" rx="9.15" ry="8.581" transform="translate(9.15 8.58)"/>
+                <ellipse id="Oval-Copy-3" stroke="#92A7D7" stroke-width="2.587" rx="9.15" ry="8.581" transform="translate(37.596 8.58)" style="mix-blend-mode:multiply"/>
+              </g>
+            </g>
+            <g id="web-browser" filter="url(#filter-7)" transform="translate(150.693)">
+              <g id="Rectangle-2">
+                <use id="Mask-3" fill="#F3F5FA" xlink:href="#path-8"/>
+                <path fill="#FFF" mask="url(#mask-9)" transform="translate(-10.347 48.377)" d="M0 0h518.211v340.366H0z"/>
+              </g>
+              <g id="Group-4-Copy-3" fill="#92A7D7" transform="translate(25.032 21.45)">
+                <ellipse id="Oval-4" rx="5.338" ry="5.355" transform="translate(5.338 5.355)"/>
+                <ellipse id="Oval-Copy-4" rx="5.338" ry="5.355" transform="translate(21.935 5.355)"/>
+                <ellipse id="Oval-Copy-2" rx="5.338" ry="5.355" transform="translate(38.531 5.355)"/>
+              </g>
+            </g>
+          </g>
+          <g transform="translate(205.5 207.5)" style="animation:a0_t 12s linear infinite both">
+            <ellipse id="Oval-3" fill="#92A7D7" rx="42" ry="42" transform="translate(412.5 353.5)" style="animation:Oval-3_t 12s linear infinite both"/>
+            <ellipse id="Oval-3-Copy" fill="#92A7D7" rx="42" ry="42" transform="translate(.5 251.5)" style="animation:Oval-3-Copy_t 12s linear infinite both"/>
+            <ellipse id="Oval-3-Copy-2" fill="#92A7D7" rx="42" ry="42" transform="translate(184.5 .5)" style="animation:Oval-3-Copy-2_t 12s linear infinite both"/>
+            <path id="Line" d="M185 0l228 353" stroke="#1F0166" stroke-width="2" stroke-linecap="round"/>
+            <path id="Line-Copy" d="M0 252l412.5 101.5" stroke="#1F0166" stroke-width="2" stroke-linecap="round"/>
+            <path id="Line-Copy-2" d="M.5 251.5l185-251" stroke="#1F0166" stroke-width="2" stroke-linecap="round"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

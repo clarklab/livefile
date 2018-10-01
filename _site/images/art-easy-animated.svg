@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="380px" height="235px" viewBox="0 0 380 235">
+    <style>
+@keyframes a0_t { 0% { transform: translate(-2px,38px); } 100% { transform: translate(-51.005111px,38px); } }
+@keyframes Oval_t { 0% { transform: translate(190px,71px); } 50% { transform: translate(190px,71px); animation-timing-function: cubic-bezier(0.42,0,1,1); } 52.5% { transform: translate(190px,81px); animation-timing-function: cubic-bezier(0,0,0.58,1); } 55% { transform: translate(190px,71px); } 100% { transform: translate(190px,71px); } }
+    </style>
+    <title>art-easy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" width="248" height="186" rx="20"/>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"/>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="art-easy" transform="translate(0,30)">
+            <rect id="Rectangle-path" fill="#F3F5FA" fill-rule="nonzero" width="380" height="205" rx="20"/>
+            <g id="Group" transform="translate(69,71)">
+                <use id="Rectangle-path-2" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"/>
+                <g id="Group-2" stroke="#1F0166" stroke-width="2" mask="url(#mask-2)">
+                    <g transform="translate(-2,38)" style="animation: a0_t 8s linear infinite both;">
+                        <path id="Shape" d="M247,0.549562C247,14.2199,235.964,25.3021,222.351,25.3021C208.737,25.3021,197.701,14.2199,197.701,0.549562C197.701,14.2199,186.665,25.3021,173.052,25.3021C159.438,25.3021,148.402,14.2199,148.402,0.549562C148.402,14.2199,137.366,25.3021,123.753,25.3021C110.139,25.3021,99.1031,14.2199,99.1031,0.549562C99.1031,14.2199,88.0674,25.3021,74.4536,25.3021C60.8398,25.3021,49.8041,14.2199,49.8041,0.549562C49.8041,14.2199,38.7684,25.3021,25.1546,25.3021C11.5408,25.3021,0.505112,14.2199,0.505112,0.549562"/>
+                        <path id="Shape-Copy" d="M493.495,1.01022C493.495,14.6806,482.459,25.7628,468.845,25.7628C455.232,25.7628,444.196,14.6806,444.196,1.01022C444.196,14.6806,433.16,25.7628,419.546,25.7628C405.933,25.7628,394.897,14.6806,394.897,1.01022C394.897,14.6806,383.861,25.7628,370.247,25.7628C356.634,25.7628,345.598,14.6806,345.598,1.01022C345.598,14.6806,334.562,25.7628,320.948,25.7628C307.335,25.7628,296.299,14.6806,296.299,1.01022C296.299,14.6806,285.263,25.7628,271.649,25.7628C258.036,25.7628,247,14.6806,247,1.01022"/>
+                    </g>
+                </g>
+            </g>
+            <ellipse id="Oval" fill="#92A7D7" fill-rule="nonzero" rx="16" ry="16" transform="translate(0,0) translate(190,71)" style="animation: Oval_t 8s linear infinite both;"/>
+        </g>
+    </g>
+</svg>

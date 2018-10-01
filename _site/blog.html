@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LiveFile</title>
+<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+  <body class="single">
+
+  <div class="hero clearfix">
+
+  <header class="clearfix">
+	<div class="max-width-4 mx-auto">
+	<div class="md-flex lg-flex items-center">
+		<a href="/" class="logo">LiveFile</a>
+	<nav class="flex-auto">
+		<a href="/">Features</a>
+		<a href="/">Use Cases</a>
+		<a href="/blog" class="last">Blog</a>
+	</nav> 
+	<a href="#" class="join medium xs-hide sm-hide">Join the Waitlist</a>
+	<a href="#" class="join medium button md-hide lg-hide">Waitlist</a>
+	<a href="#" class="toggle"><img src="https://icon.now.sh/more_vert/24/1F0166" class="md-hide lg-hide" alt=""></a>
+	</div>
+	</div>
+</header>
+
+  <div class="max-width-3 mx-auto center">
+
+  <svg class="art" width="1274" height="1195" viewBox="0 0 1274 1195" xmlns="http://www.w3.org/2000/svg">
+    <path d="M822.728 34c-216.078 9.134-437.544 67.983-601.236 209.326C112.902 337.09 32.067 472.152 34.035 615.607c1.403 102.251 44.881 201.352 110.357 279.902 65.476 78.55 151.87 137.704 244.04 181.998 126.991 61.028 269.37 95.452 409.443 80.262 140.073-15.191 277.107-83.626 359.56-197.875 84.347-116.875 104.736-275.457 59.182-412.202-45.556-136.745-154.004-249.661-286.134-307.246-132.13-57.585-285.703-60.813-422.576-15.646" stroke="#F4F6FA" stroke-width="67" fill="none" fill-rule="evenodd" stroke-linecap="round"/>
+  </svg>
+
+  </div>
+
+  </div>
+
+
+<div class="clearfix">
+  <div class="max-width-3 mx-auto p2 center">
+    <h1></h1>
+    <p class="blue px3"></p>
+  </div>
+</div>
+
+<div class="clearfix">
+<div class="max-width-2 mx-auto p2 mb4 pb4">
+  
+<div class="post mb4">
+    <h1><a href="/welcome-to-jekyll.html">Welcome to Jekyll!</a></h1>
+    <p>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your... <a href="/welcome-to-jekyll.html">View Post</a></p>
+  </div>
+
+
+</div>
+</div>
+
+  <div class="subscribe clearfix bg-dark py4">
+	<div class="max-width-1 mx-auto px3">
+		<p class="h1 center bold">Join the Waitlist</p>
+		<p class="center mb3">We are so excited to get you access to what we’re building. We think this will change your life.</p>
+		<form action="">
+			<input type="text" placeholder="Your Name" class="text">
+			<input type="text" placeholder="Your Email" class="text mb3">
+			<div class="center">
+				<button class="medium">Join the Waitlist</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<footer class="clearfix">
+	<div class="max-width-4 mx-auto">
+	<div class="md-flex lg-flex items-center">
+	<a href="/" class="logo">LiveFile</a>
+	<nav class="flex-auto">
+		<a href="/" class="full">Features</a>
+		<a href="/" class="full">Use Cases</a>
+		<a href="/blog" class="full last">Blog</a>
+		<a href=""><img src="https://icon.now.sh/twitter/16/1F0166" alt="" class="icon"></a>
+		<a href=""><img src="https://icon.now.sh/facebook/16/1F0166" alt="" class="icon"></a>
+		<a href=""><img src="https://icon.now.sh/linkedin/16/1F0166" alt="" class="icon"></a>
+	</nav>
+	<p>© 2018 LiveFile, All Rights Reserved. <br class="sm-hide md-hide lg-hide"><a href="#">We're hiring.</a></p>
+	</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+
+<script>
+
+	$( document ).ready(function() {
+
+	$(".join").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $(".subscribe").offset().top
+	    }, 500);
+	    return false;
+	});
+
+  	function handler1() {
+	   $("nav").addClass("open");
+	   $('.toggle img').attr('src','https://icon.now.sh/close/24/1F0166');
+	   $(this).one("click", handler2);
+	   return false;
+	}
+	function handler2() {
+	   $("nav").removeClass("open");
+	   $('.toggle img').attr('src','https://icon.now.sh/more_vert/24/1F0166');
+	   $(this).one("click", handler1);
+	   return false;
+	}
+	$(".toggle").one("click", handler1);
+
+	});
+
+</script>
+
+  </body>
+
+</html>
